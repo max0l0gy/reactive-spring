@@ -1,4 +1,4 @@
-package ru.maxology.reactive.spring.reactivespring;
+package ru.maxology.reactive.spring.experimental;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

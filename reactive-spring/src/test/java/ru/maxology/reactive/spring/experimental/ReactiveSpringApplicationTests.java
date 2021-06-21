@@ -1,4 +1,4 @@
-package ru.maxology.reactive.spring.reactivespring;
+package ru.maxology.reactive.spring.experimental;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

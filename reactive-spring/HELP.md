@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'ru.maxology.reactive.spring.reactive-spring' is invalid and this project uses 'ru.maxology.reactive.spring.reactivespring' instead.
+* The original package name 'ru.maxology.reactive.spring.reactive-spring' is invalid and this project uses 'ru.maxology.reactive.spring.experimental' instead.
 
 # Getting Started
 
