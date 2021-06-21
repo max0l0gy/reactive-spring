@@ -1,0 +1,32 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  application:
+    name: demo-r2dbc-h2
+  profiles:
+    active: dev
+  r2dbc:
+    url: r2dbc:h2:mem:///test?options=DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    name: sa
+    password:
+    initialization-mode: always
+
+#actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics
+  metrics:
+    export:
+      atlas:
+        enabled: false
+
+server:
+  port: 8080
+
+
+logging:
+  level:
+    org.springframework.data.r2dbc: DEBUG
